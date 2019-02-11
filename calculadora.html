@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Calculadora</title>
+	<script src="js/calc.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<div class="div">
+	<h1>Calculadora</h1>
+	
+	<form name="calc">
+		<input type="text" class="display" name="tela" id="tela">
+		<br><br>
+		<input type="button" class="botao" value="7" onclick="botao(7);">
+		<input type="button" class="botao" value="8" onclick="botao(8);">
+		<input type="button" class="botao" value="9" onclick="botao(9);">
+		<input type="button" class="botao" value="/" onclick="botao('/');" >
+		<br>
+		<input type="button" class="botao" value="4" onclick="botao(4);">
+		<input type="button" class="botao" value="5" onclick="botao(5);">
+		<input type="button" class="botao" value="6" onclick="botao(6);">
+		<input type="button" class="botao" value="*" onclick="botao('*');">
+		<br>
+		<input type="button" class="botao" value="1" onclick="botao(1);">
+		<input type="button" class="botao" value="2" onclick="botao(2);">
+		<input type="button" class="botao" value="3" onclick="botao(3);">
+		<input type="button" class="botao" value="-" onclick="botao('-');">
+		<br>
+		<input type="button" class="botao" value="0" onclick="botao(0);">
+		<input type="button" class="botao" value="=" onclick="resultado();">
+		<input type="button" class="botao" value="C" onclick="limpar();">
+		<input type="button" class="botao" value="+" onclick="botao('+');">
+	</form>
+	</div>
+</body>
+</html>
