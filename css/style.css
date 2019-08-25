@@ -1,25 +1,32 @@
-.botao{
-	padding: 10px;
-	margin-top: 5px;
-	margin-left: 3px;
-	width: 50px;
-	height: 50px;
-	font-size: 24px;
-	background-color: #4451ff;
+.botao {
+    padding: 10px;
+    margin-top: 5px;
+    margin-left: 3px;
+    width: 50px;
+    height: 50px;
+    font-size: 24px;
+    background-color: #4451ff;
+    border: 1cm;
+    border-radius: 10px;
 }
-.display{
-	padding: 8px;
-	font-size: 17px;
-}
-.div{
 
-	position: absolute;
-	top: 100px;
-	left: 568px;
+.display {
+    padding: 8px;
+    font-size: 17px;
+    border-color: #4451ff;
+    border-radius: 10px;
 }
-body{
-	background-color: #fff432;
+
+.div {
+    position: absolute;
+    top: 100px;
+    left: 568px;
 }
-h1{
-	color: #4451ff;
+
+body {
+    background-color: #ffffff;
+}
+
+h1 {
+    color: #4451ff;
 }
